@@ -2,3 +2,44 @@ header {
     background-color: $header-background;
     height: 200px;
 }
+
+.header-top {
+    width: $full-width;
+}
+
+li {
+    display: inline-block;
+    float: right;
+    margin-left: $space;
+
+    a {
+        color: $secondary-color-text;
+
+        i {
+            color: $color-icons-header;
+        }
+    }
+}
+
+.header-bottom {
+    width: $full-width;
+}
+
+.headerbar-nav {
+
+    ul {
+
+        li {
+            margin-right: $space * 2;
+
+            a {
+                font-size: $font-size - 1px;
+                color: $primary-color-text;
+
+                i {
+                    color: $secondary-color-text;
+                }
+            }
+        }
+    }
+}
