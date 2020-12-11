@@ -1,6 +1,5 @@
 .jumbotron {
     width: $full-width;
-    min-height: 300px;
     background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg');
 }
 
@@ -10,9 +9,52 @@
 }
 
 .text-download {
-    width: 65%;
+    width: 50%;
+    margin-left: 15%;
+    margin-top: 50px;
+    color: $primary-color-text;
     float: left;
     height: 100%;
+
+        h3 {
+            font-size: $font-size + 22px;
+            font-weight: 300;
+        }
+
+        p {
+            font-size: $font-size + 8px;
+            margin: 20px 0px 10px;
+        }
+
+        ul {
+            margin-bottom: 35px;
+            li {
+                display: block;
+                margin-bottom: 11px;
+            }
+        }
+
+        .button-download {
+            background-color: #5C5C5A;
+            width: 150px;
+            padding: 5px 5px;
+            margin-bottom: 10px;
+
+            button {
+                background-color: #5C5C5A;
+                color: $primary-color-text;
+                border: none;
+
+                span {
+
+                }
+
+                i {
+                    margin-left: 5px;
+                    font-size: $font-size * 2;
+                }
+            }
+        }
 }
 
 .section-button-offer {
@@ -24,9 +66,78 @@
 .offer-container {
     background-color: $header-background;
     color: $primary-color-text;
+    min-height: 420px;
+    padding: 20px 15px 20px;
+    margin-top: 20px;
+}
+
+.price-guarantee {
+    width: $full-width;
+
+    .text-price {
+        width: 49%;
+        display: inline-block;
+
+        span {
+            display: block;
+        }
+
+        #number-price {
+            font-size: $font-size + 10px;
+        }
+
+        #text-span {
+            text-transform: uppercase;
+            font-size: $font-size - 1px;
+            color: $secondary-color-text;
+        }
+    }
+}
+
+.img-guarantee {
+    width: 49%;
+    display: inline-block;
+
+    img {
+        float: right;
+    }
+}
+
+.button-offer {
+    margin-bottom: 15px;
+
+    button {
+        margin: 20px 6px 12px 0;
+        min-width: 150px;
+        font-size: 15px;
+        border: none;
+        background-color: $buttons-background;
+        color: $primary-color-text;
+        text-transform: uppercase;
+        padding: 5px 20px 7px;
+     }
 }
 
 .animation-pack {
     background-color: $tertiary-color;
     color: black;
+    padding: 15px;
+}
+
+.overview {
+    width: $full-width;
+    background-color: $secondary-color;
+}
+
+.list-overview {
+
+    li {
+        padding: 20px 40px;
+
+        a {
+            color: black;
+            text-transform: uppercase;
+            font-size: $font-size + 8px;
+        }
+    }
 }

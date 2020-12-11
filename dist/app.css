@@ -106,7 +106,6 @@ header {
 
 .jumbotron {
   width: 100%;
-  min-height: 300px;
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
 }
 
@@ -116,9 +115,49 @@ header {
 }
 
 .text-download {
-  width: 65%;
+  width: 50%;
+  margin-left: 15%;
+  margin-top: 50px;
+  color: white;
   float: left;
   height: 100%;
+}
+
+.text-download h3 {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.text-download p {
+  font-size: 22px;
+  margin: 20px 0px 10px;
+}
+
+.text-download ul {
+  margin-bottom: 35px;
+}
+
+.text-download ul li {
+  display: block;
+  margin-bottom: 11px;
+}
+
+.text-download .button-download {
+  background-color: #5C5C5A;
+  width: 150px;
+  padding: 5px 5px;
+  margin-bottom: 10px;
+}
+
+.text-download .button-download button {
+  background-color: #5C5C5A;
+  color: white;
+  border: none;
+}
+
+.text-download .button-download button i {
+  margin-left: 5px;
+  font-size: 28px;
 }
 
 .section-button-offer {
@@ -130,10 +169,76 @@ header {
 .offer-container {
   background-color: #000000;
   color: white;
+  min-height: 420px;
+  padding: 20px 15px 20px;
+  margin-top: 20px;
+}
+
+.price-guarantee {
+  width: 100%;
+}
+
+.price-guarantee .text-price {
+  width: 49%;
+  display: inline-block;
+}
+
+.price-guarantee .text-price span {
+  display: block;
+}
+
+.price-guarantee .text-price #number-price {
+  font-size: 24px;
+}
+
+.price-guarantee .text-price #text-span {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #989898;
+}
+
+.img-guarantee {
+  width: 49%;
+  display: inline-block;
+}
+
+.img-guarantee img {
+  float: right;
+}
+
+.button-offer {
+  margin-bottom: 15px;
+}
+
+.button-offer button {
+  margin: 20px 6px 12px 0;
+  min-width: 150px;
+  font-size: 15px;
+  border: none;
+  background-color: #009CFF;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 20px 7px;
 }
 
 .animation-pack {
   background-color: #FFFFFF;
   color: black;
+  padding: 15px;
+}
+
+.overview {
+  width: 100%;
+  background-color: #E6E6E6;
+}
+
+.list-overview li {
+  padding: 20px 40px;
+}
+
+.list-overview li a {
+  color: black;
+  text-transform: uppercase;
+  font-size: 22px;
 }
 
