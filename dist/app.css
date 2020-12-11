@@ -233,12 +233,27 @@ header {
 }
 
 .list-overview li {
-  padding: 20px 40px;
+  padding: 15px 26px;
 }
 
 .list-overview li a {
   color: black;
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 18px;
+  color: #555555;
+}
+
+.guide-video {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
+  height: 699px;
+}
+
+.text-videoguide {
+  color: white;
+  text-align: center;
+}
+
+.text-videoguide span {
+  display: block;
 }
 

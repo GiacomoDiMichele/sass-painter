@@ -132,12 +132,35 @@
 .list-overview {
 
     li {
-        padding: 20px 40px;
+        padding: 15px 26px;
 
         a {
             color: black;
             text-transform: uppercase;
-            font-size: $font-size + 8px;
+            font-size: $font-size + 4px;
+            color: #555555;
         }
+    }
+}
+
+.guide-video {
+    background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg');
+    height: 699px;
+}
+
+.text-videoguide {
+    color: $primary-color-text;
+    text-align: center;
+
+    h2 {
+
+    }
+
+    p {
+
+    }
+
+    span {
+        display: block;
     }
 }
