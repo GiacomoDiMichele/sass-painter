@@ -9,15 +9,25 @@ body {
     font-size: $font-size;
 }
 
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
 a {
     text-decoration: none;
 }
 
 .container {
+    height: 100%;
     width: 1200px;
     margin: 0 auto;
 
     &::after {
         @include clearfix;
     }
+}
+
+.clearfix::after {
+    @include clearfix;
 }

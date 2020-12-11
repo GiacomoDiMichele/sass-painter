@@ -9,48 +9,94 @@ body {
   font-size: 14px;
 }
 
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
 a {
   text-decoration: none;
 }
 
 .container {
+  height: 100%;
   width: 1200px;
   margin: 0 auto;
 }
 
+.container::after {
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.clearfix::after {
+  clear: both;
+  display: table;
+  content: "";
+}
+
 header {
   background-color: #000000;
-  height: 200px;
+  height: 95px;
 }
 
 .header-top {
+  padding-right: 15px;
   width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-li {
-  display: inline-block;
+.header-top li {
   float: right;
   margin-left: 15px;
 }
 
-li a {
+.header-top li a {
+  font-size: 12px;
+  margin-left: 15px;
   color: #989898;
 }
 
-li a i {
+.header-top li a i {
   color: #009CFF;
 }
 
 .header-bottom {
+  height: 50%;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 10%;
+  float: left;
+}
+
+.logo img {
+  height: 24px;
+}
+
+.headerbar-nav {
+  width: 90%;
+  float: left;
+}
+
+.headerbar-nav ul {
+  margin-left: 15px;
 }
 
 .headerbar-nav ul li {
-  margin-right: 30px;
+  margin-right: 45px;
 }
 
 .headerbar-nav ul li a {
-  font-size: 13px;
+  font-size: 12px;
   color: white;
 }
 
@@ -60,7 +106,34 @@ li a i {
 
 .jumbotron {
   width: 100%;
-  height: 300px;
+  min-height: 300px;
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+}
+
+.jumbo-content {
+  width: 100%;
+  height: 100%;
+}
+
+.text-download {
+  width: 65%;
+  float: left;
+  height: 100%;
+}
+
+.section-button-offer {
+  height: 100%;
+  width: 35%;
+  float: left;
+}
+
+.offer-container {
+  background-color: #000000;
+  color: white;
+}
+
+.animation-pack {
+  background-color: #FFFFFF;
+  color: black;
 }
 

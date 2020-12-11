@@ -1,5 +1,32 @@
 .jumbotron {
     width: $full-width;
-    height: 300px;
+    min-height: 300px;
     background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg');
+}
+
+.jumbo-content {
+    width: $full-width;
+    height: 100%;
+}
+
+.text-download {
+    width: 65%;
+    float: left;
+    height: 100%;
+}
+
+.section-button-offer {
+    height: 100%;
+    width: 35%;
+    float: left;
+}
+
+.offer-container {
+    background-color: $header-background;
+    color: $primary-color-text;
+}
+
+.animation-pack {
+    background-color: $tertiary-color;
+    color: black;
 }
