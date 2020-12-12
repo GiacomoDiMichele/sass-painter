@@ -250,7 +250,7 @@ header {
   background-position: bottom;
   background-repeat: no-repeat;
   position: relative;
-  height: 800px;
+  height: 938px;
 }
 
 .content-videoguide {
@@ -282,5 +282,91 @@ header {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  margin-top: 2px;
+}
+
+.content-videoguide {
+  padding-top: 80px;
+}
+
+.text-videoguide p {
+  margin: 18px 0px;
+  font-size: 18px;
+}
+
+.text-videoguide span {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.text-videoguide span i {
+  margin-right: 15px;
+}
+
+.background-carousel {
+  background-color: #FFFFFF;
+}
+
+.text-carousel {
+  margin: 90px 0px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.text-carousel h3 {
+  color: #333333;
+  font-size: 36px;
+  font-weight: 400;
+  margin: 20px 0px 10px;
+}
+
+.text-carousel p {
+  font-size: 18px;
+  color: #333333;
+}
+
+.carousel {
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel .prev-photo {
+  float: left;
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.carousel .prev-photo i {
+  font-size: 28px;
+  color: #E74500;
+}
+
+.carousel .current-photo {
+  float: left;
+  width: 90%;
+}
+
+.carousel .current-photo img {
+  width: 100%;
+}
+
+.carousel .next-photo {
+  float: left;
+  width: 5%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel .next-photo i {
+  font-size: 28px;
+  color: #E74500;
 }
 
