@@ -350,6 +350,7 @@ header {
 .carousel .current-photo {
   float: left;
   width: 90%;
+  margin-bottom: 60px;
 }
 
 .carousel .current-photo img {
@@ -368,5 +369,19 @@ header {
 .carousel .next-photo i {
   font-size: 28px;
   color: #E74500;
+}
+
+.paint-rainy-city {
+  height: 700px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg");
+}
+
+.app-functions {
+  background-color: #222222;
+  color: white;
 }
 
