@@ -288,3 +288,132 @@
     background-color: $primary-color;
     color: $primary-color-text;
 }
+
+.flexible-photo {
+    padding-top: 60px;
+    flex-direction: column;
+    @include flex-center;
+
+}
+
+.flexible-photo-text {
+    font-size: $font-size * 2;
+    text-align: center;
+    padding: 40px 0px;
+
+    h3 {
+        font-weight: 400;
+    }
+
+    p {
+        font-size: $font-size + 1px;
+        font-weight: 300;
+    }
+}
+
+.flexible-photo-img {
+    padding: 40px;
+    width: 850px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.experiment {
+    margin: 70px 0px;
+    @include flex-center;
+}
+
+.experiment-text {
+    float: left;
+    width: 35%;
+
+    h3 {
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    p {
+        font-size: 17px;
+        font-weight: 300;
+        margin: 18px 0px;
+    }
+}
+
+.experiment-img {
+    float: left;
+    width: 65%;
+
+    img {
+        width: 95%;
+        margin-left: 5%;
+    }
+}
+
+.industry-acclaimed {
+    margin: 80px 0px;
+    @include flex-center;
+}
+
+.industry-img {
+    float: left;
+    width: 60%;
+
+    img {
+        width: $full-width;
+    }
+}
+
+
+.industry-text {
+    float: left;
+    width: 35%;
+    margin-left: 5%;
+
+    h3 {
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    p {
+        font-size: 17px;
+        font-weight: 300;
+        margin: 18px 0px;
+    }
+}
+
+.paint-eye {
+    height: 640px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-01.jpg');
+}
+
+footer {
+    background-color: $secondary-color;
+    min-height: 250px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 50px;
+
+    div {
+        width: 20%;
+
+        li {
+            display: block;
+
+            a {
+                color: #4d4d4d;
+                font-weight: 300;
+                font-size: 12px;
+            }
+        }
+    }
+}
